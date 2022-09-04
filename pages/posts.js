@@ -4,9 +4,9 @@ const Posts = ({ ssr, postsData }) => {
   const [posts, setPosts] = useState(postsData);
 
   useEffect(() => {
-    if (!ssr) {
-      // setPosts(res.data)
-    }
+    // if (!ssr) {
+    //   // setPosts(res.data)
+    // }
   }, []);
 
   return <div></div>;
